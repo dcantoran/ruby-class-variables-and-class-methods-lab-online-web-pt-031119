@@ -36,9 +36,10 @@ class Song
     # if more than one genre add the count by 1
       # hash[genre]=count
       if genre == genre
+        binding.pry
         count += 1
-      binding.pry
-      elsif genre == 1
+  
+      else 
         count = 1
       end
       hash[genre] = count
