@@ -35,7 +35,7 @@ class Song
     @@genres.each do |genre|
     # if more than one genre add the count by 1
       # hash[genre]=count
-      if hash[genre] 
+      if hash[genre]
         # binding.pry
         hash[genre] += 1
       else 
